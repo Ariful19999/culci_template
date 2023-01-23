@@ -1,0 +1,239 @@
+/*---------Bismillahir Rahamanir Rahim---------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,p,span,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------header section-----*/
+
+.header{
+    width: 100%;
+    height: 115px;
+    background: black !important;
+    /*position: fixed;*/
+    z-index: 99;
+    border-bottom: 1px solid #918c84;
+}
+.logo_img{
+    width: 172px;
+    height: 84px;
+    margin-left: 20px;
+}
+.logo_img img{
+    width: 100%;
+}
+.header-middle{
+    margin-top: 17px;
+}
+.header-middle ul{}
+.header-middle ul li{
+    padding: 53px 25px;
+    font-family: 'Jost', sans-serif;
+}
+.header-middle ul li .dropdown_item{
+    margin-top: -9px;
+    transform:scaley(0);
+    transform-origin: top center;
+    transition: 0.4s;
+    background: #fff;
+    border-radius: inherit;
+}
+.header-middle ul li:hover .dropdown_item{
+    transform:scaley(1) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.header-middle ul li span{}
+.header_a{
+    color: white !important;
+}
+.header-middle ul li a{
+    
+    font-weight: 700;
+    font-size: 12px;
+}
+.header-middle ul li a:hover{
+    color: red !important;
+}
+.dropdown_item{
+    background: black;
+}
+.dropdown_item a{
+    padding: 15px;
+    margin: 25px 7px 24px 0px;
+    transition: 0.4s;
+    color: black;
+}
+.dropdown_item a:hover{
+    transform: scaleY(1.1);
+
+}
+.triangle_up{
+    position: absolute;
+    top: -39px;
+    left: 16px;
+}
+.triangle_up span{
+    font-size: 45px;
+    color: white;
+}
+
+.header_right{}
+.header_right a{
+    font-size: 20px;
+    color: white;
+    margin-right: 19px;
+    transition: 0.4s;
+}
+.header_right a:hover{
+    color: red;
+}
+
+.header_right a span:hover .form_box{
+    visibility: visible;
+    transform:scaley(1);
+}
+.header_right:hover .form_box{
+    visibility: visible;
+    transform:scaley(1);
+}
+
+.form_box{
+    position: absolute;
+    right: 0px;
+    bottom: -58px;
+    visibility: hidden;
+    transform:scaley(0);
+    transform-origin: top center;
+    transition: 0.4s;
+}
+
+.form_box input{
+    padding: 27px 20px;
+    height: 50px;
+    border: 1px solid black;
+}
+.form_box button{
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    border: none;
+}
+.form_box button a{
+    color: darkgrey;
+    background: white;
+    font-size: 20px;
+    margin-right: 0px !important;
+}
+
+
+
+
+/*--------Banner Section------*/
+
+.banner{
+    background: black;
+    height: 400px;
+}
+
+.banner_left{
+    text-align: center;
+    margin-top: 130px;
+    transition: 0.4s;
+}
+.banner_left:hover span{
+    color: #fff;
+}
+.banner_left h1{
+    color: #fff;
+    font-family: "Verdana", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner_left p{
+    color: #fff;
+    font-family: "Verdana", Times, serif;
+    font-size: 15px;
+}
+.banner_left p span{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: red;
+}
+
+/* --Back To Top Icon Section-- */
+
+.back_to_top{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background: red;
+    z-index: 99;
+    transition: 0.4s;
+}
+.back_to_top:hover{
+    background: black;
+}
+.back_to_top:hover span{
+    color: red;
+}
+.back_to_top span{
+    color: white;
+    padding: 0px 11px;
+    font-size: 19px;
+    position: absolute;
+    top: 7px;
+}
+
+/*---Committee Section------*/
+
+.Committee_top{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.Committee_top h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+
+/*-------Blood Table--------*/
+
+.blood_table{
+    box-shadow: 0px 0px 60px 0px #e9e9e9;
+    margin-bottom: 70px;
+}
+.blood_table_inner{
+    padding: 50px 20px;
+}
+.blood_table_inner_in thead{
+    background: red;
+}
+.blood_table_inner_in thead th{
+    color: #fff;
+    font-family: "Verdana", Times, serif;
+}
+.blood_table_inner_in tbody{}
+.blood_table_inner_in tbody tr{
+    background: floralwhite;
+}
+.blood_table_inner_in tbody tr td{
+    color: darkred;
+    font-family: "Comic Sans MS", Times, serif;
+}
+
+

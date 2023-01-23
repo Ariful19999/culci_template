@@ -1,0 +1,26 @@
+
+/*--News Publicity--*/
+/* Comment Section */
+
+@media(max-width:400px){
+    .user_comment_name input {
+        padding: 23px 25px;
+    }
+    .user_comment_email input {
+        padding: 23px 25px;
+    }
+}
+
+/* Comment Show Section */
+
+@media(max-width:575px){
+    .comment_show_left {
+        margin-top: 17px;
+    }
+    .comment_show_left span {
+        font-size: 40px;
+    }
+    .comment_show_right p {
+        font-size: 13px;
+    }
+}
